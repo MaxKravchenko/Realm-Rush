@@ -12,7 +12,7 @@ public class TargetLocator : MonoBehaviour
     void Update()
     {
         FindClosestTarget();
-        //AimWeapon();
+        AimWeapon();
     }
 
     void FindClosestTarget()

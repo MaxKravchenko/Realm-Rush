@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Tile : MonoBehaviour
-{
+{   
     [SerializeField] Tower towerPrefab;
     
     [SerializeField] bool isPlaceable;   
