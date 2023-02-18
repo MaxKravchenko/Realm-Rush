@@ -1366,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8054556982527234993, guid: cf3bbc92898fc4849a95ec518556f48a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 69.17876
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 8054556982527234993, guid: cf3bbc92898fc4849a95ec518556f48a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1768,8 +1768,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 838f9f0dc967a8d429e75195db814a8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoordinates: {x: 3, y: 3}
-  destinationCoordinates: {x: 1, y: 0}
+  startCoordinates: {x: 5, y: 5}
+  destinationCoordinates: {x: 5, y: 7}
 --- !u!1 &208036931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2990,6 +2990,10 @@ PrefabInstance:
     - target: {fileID: 2081137803768025574, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409886124404546861, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
+      propertyPath: isPlaceable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
@@ -5982,6 +5986,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6409886124404546861, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
 --- !u!4 &631093647 stripped
@@ -8608,7 +8616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8054556982527234993, guid: cf3bbc92898fc4849a95ec518556f48a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 80.57266
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8054556982527234993, guid: cf3bbc92898fc4849a95ec518556f48a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8616,7 +8624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8054556982527234993, guid: cf3bbc92898fc4849a95ec518556f48a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.248497
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8054556982527234993, guid: cf3bbc92898fc4849a95ec518556f48a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15709,7 +15717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3d3a412f6f4144d8ea5d7a72d11641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 5, y: 5}
+  gridSize: {x: 10, y: 10}
+  unityGridSize: 10
 --- !u!4 &1651630689
 Transform:
   m_ObjectHideFlags: 0
@@ -16103,6 +16112,10 @@ PrefabInstance:
     - target: {fileID: 2081137803768025574, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409886124404546861, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
+      propertyPath: isPlaceable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
@@ -16530,6 +16543,10 @@ PrefabInstance:
     - target: {fileID: 2081137803768025574, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409886124404546861, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
+      propertyPath: isPlaceable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
@@ -19410,6 +19427,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6409886124404546861, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50a08a970d5998944952ec98da9f6587, type: 3}
 --- !u!4 &2104689070 stripped
@@ -19898,6 +19919,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5497983949498455095, guid: 39ffe9b528fc06a4c9c87c9cc040e24d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497983949498455112, guid: 39ffe9b528fc06a4c9c87c9cc040e24d, type: 3}
+      propertyPath: poolSize
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5497983949498455112, guid: 39ffe9b528fc06a4c9c87c9cc040e24d, type: 3}
