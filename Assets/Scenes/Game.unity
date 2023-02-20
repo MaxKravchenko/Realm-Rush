@@ -19365,7 +19365,7 @@ PrefabInstance:
       objectReference: {fileID: 365242283}
     - target: {fileID: 3197387259385023168, guid: e6b0519210debaf4cacb20aa7daadde5, type: 3}
       propertyPath: startingBalance
-      value: 250
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 3197387259385023169, guid: e6b0519210debaf4cacb20aa7daadde5, type: 3}
       propertyPath: m_Name
